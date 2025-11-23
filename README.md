@@ -1,9 +1,50 @@
-This repository contains two distinct projects:
+# Node.js Backend Practice Projects
 
-1. Attendance Management System (MongoDB)
-Functionality: A Node.js-based application for tracking student attendance with MongoDB as the database for storing attendance records.
-Key Features: User authentication, record creation, and real-time attendance tracking.
+This repository contains **hands-on Node.js projects** I worked on as part of my learning and experimentation with backend development. These projects are **practice-oriented and research-based**, designed to explore RESTful APIs, server-side logic, and database integration.  
 
-*2. Knowledge Graph (Neo4j)
-Functionality: A Node.js application that leverages Neo4j for creating and querying a knowledge graph to represent relationships between data.
-Key Features: Graph data modeling, relationship queries, and dynamic graph visualization.
+> Note: The files here are not production-level; they are intended for learning, experimentation, and showcasing the practical application of concepts.
+
+---
+
+## Projects Overview
+
+### 1. Attendance Management System (MongoDB)
+**Description:** A Node.js application for tracking student attendance with MongoDB.  
+**Purpose:** Practice working with server-side logic, database operations, and API development.  
+**Technologies:** Node.js, Express.js, MongoDB  
+
+**Files related to this project:**
+- `app.js` – Main server file  
+- `userController.js` – Handles attendance logic  
+- `userModel.js` – MongoDB schema for students  
+- `index.html` – Simple front-end interface (optional)  
+
+**Key Features Practiced:**
+- User authentication  
+- Creating and updating attendance records  
+- Basic CRUD operations with MongoDB  
+
+---
+
+### 2. Knowledge Graph (Neo4j)
+**Description:** A Node.js application leveraging Neo4j to create and query a knowledge graph representing relationships between data.  
+**Purpose:** Explore graph databases and understand relationship modeling with Neo4j.  
+**Technologies:** Node.js, Express.js, Neo4j  
+
+**Files related to this project:**
+- `index.js` – Main server file for graph app  
+- `script.js` – Handles graph queries  
+- `ontology graph.graph` – Sample Neo4j graph data file  
+
+**Key Features Practiced:**
+- Graph data modeling  
+- Querying relationships  
+- Visualizing simple graph structures  
+
+---
+
+## About
+
+These projects reflect **practical hands-on learning** and experimentation with backend development in Node.js. While the code is **not production-ready**, it demonstrates my approach to building and understanding backend systems, databases, and APIs.  
+
+This repository is ideal for anyone looking to see **learning-oriented Node.js projects** with both relational (MongoDB) and graph (Neo4j) database integration.
